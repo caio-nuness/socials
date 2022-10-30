@@ -1,0 +1,26 @@
+.container_card__profile {
+    width: 100%;
+    height: auto;
+}
+
+.container_card__profile > p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: var(--font-thin);
+    font-size: 16px;
+}
+
+.container_card__profile___boximage {
+    margin: 0 auto;    
+    width: 160px;
+    height: 160px;
+    border: solid 2px var(--purple);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_card__profile___boximage img   {
+    border-radius: 50%;
+}
