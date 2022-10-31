@@ -8,13 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/container.css">
+    <link rel="stylesheet" href="./assets/css/container_darkmod.css">
     <link rel="stylesheet" href="./assets/css/container_card__profile.css">
     <link rel="stylesheet" href="./assets/css/container_card__links.css">
     <link rel="stylesheet" href="./assets/css/container_card__iconlink.css">
     <title>Social Tree: Caio Nunes</title>
   </head>
   <body>
-    <div id="container">
+    <div class="container" >
+      <div class="box_darkmod ">
+        <button type="button" onclick="changeClass()" class="box_darkmod__button_darkmod">
+          <div class="box_darkmod__button_darkmod___toggle"></div>
+        </button>
+        <p>ATIVAR MODO DARK</p>
+      </div>
+
       <div class="container_card">
         <div class="container_card__profile">
           <div class="container_card__profile___boximage">
@@ -37,6 +45,6 @@
         </div>
       </div>
     </div>
-    <script type="module" src="/main.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
