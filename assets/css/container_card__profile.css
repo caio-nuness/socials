@@ -23,4 +23,8 @@
 
 .container_card__profile___boximage img   {
     border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    border: solid 2px var(--purple);
+    padding: 4px;
 }
